@@ -27,8 +27,8 @@ const Filter = () => {
 };
 
 Filter.propTypes = {
-  filter: PropTypes.string.isRequired,
-  changeFilterInput: PropTypes.func.isRequired,
+  filter: PropTypes.string,
+  changeFilterInput: PropTypes.func,
 };
 
 export default Filter;
