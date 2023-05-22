@@ -14,7 +14,7 @@ export const contactsSlice = createSlice({
   initialState: {
     items,
 
-    filter: '',
+    // filter: '',
   },
 
   reducers: {
@@ -28,9 +28,9 @@ export const contactsSlice = createSlice({
       );
     },
 
-    setFilter(state, action) {
-      state.filter = action.payload;
-    },
+    // setFilter(state, action) {
+    //   state.filter = action.payload;
+    // },
   },
 });
 
